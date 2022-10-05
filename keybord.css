@@ -1,0 +1,265 @@
+
+.the-surface{
+    position: relative;
+    border: 2px solid black ;
+    height: 600px;
+    width: 100%;
+    border-radius: 10%;
+    background-color: rgb(75, 75, 75);
+}
+.thebaseplatform{
+    position: absolute;
+    border: 1px solid black ;
+    height: 420px;
+    width: 100%;
+    right: 0px;
+    border-radius: 13% 13% 0% 0%;
+    background-color: rgba(0, 0, 0, 0.212);
+    bottom: 182px;
+}
+.theinnerplatform{
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.164);
+    height: 350px;
+    width: 80%;
+    top: 50px;
+    left: 130px;
+    border-radius: 5%;
+}
+
+.themousepad{
+    position: absolute;
+    border: 1px solid black;
+    height: 150px;
+    width: 30%;
+    top: 396px;
+    left: 38%;
+    border-radius: 5%;
+}
+.themousepadlockpad{
+    position: absolute;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    top: 407px;
+    border-bottom:10px;
+    border-top: 10px;
+    left: 420px;
+    border-radius: 100%;
+}
+.themousepadkeysleft{
+    position: absolute;
+    border: 1px solid black;
+    height: 50px;
+    width: 158px;
+    top: 141%;
+    left: 413px;
+    border-radius:0px 0px 10px 10px;
+}
+.themousepadkeysright{
+    position: absolute;
+    border: 1px solid black;
+    height: 50px;
+    width: 158px;
+    top: 141%;
+    left: 574px;
+    border-radius:0px 0px 10px 10px;
+}
+.thekeybordbase{
+    position: relative;
+    border: 1px solid black;
+    height: 252px;
+    width: 74.39%;
+    top: 110px;
+    left: 165px;
+    border-radius: 2%;
+}
+
+.thefroll{
+    padding-left: 7px;
+}
+.thefroll button{
+    float: left;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+.thefrollesc{
+    float: left;
+    height: 25px;
+    bottom: 2%;
+    right: 5px;
+    text-align: center;
+    border-radius: 30% 0% 0% 0%;
+    text-align: center ;
+    line-height:1%;
+    background-color: black;
+    color: #fff;
+}
+.thefrolldelete{
+    float: left;
+    height: 25px;
+    bottom: 2%;
+    right: 5px;
+    text-align: center;
+    border-radius: 0% 30% 0% 0%;
+    text-align: center ;
+    line-height:1%;
+    background-color: black;
+    color: #fff;
+}
+
+.thenumberrow button{
+    position: relative;
+    float: left;
+    left: 7px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 3px;   
+}
+
+.thenumberrow button.thenumbackspace{
+    width: 122px;
+}
+
+.thefirstletterrow button{
+    position: relative;
+    float: left;
+    left: 7px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 3px; 
+}
+.thefirstletterrow button.tab{
+    width: 80px;
+}
+
+.thefirstletterrow button.symbol{
+    width: 102px;
+}
+.thesecondletterrow button{
+    position: relative;
+    float: left;
+    left: 7px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+
+.thesecondletterrow button.caps{
+    width: 102px;
+    padding-right: 30px;
+        
+}
+.thesecondletterrow button.enter{
+    width: 142px; 
+}
+.the3rdnumberrow button{
+    position: relative;
+    float: left;
+    left: 7px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+.the3rdnumberrow button.shift{
+    width: 126px;
+    padding-right: 80px;
+}
+.the3rdnumberrow button.pause{
+    width: 180px;
+}
+.pausespace{
+    margin-right: 122px;
+}
+.thefourthlaterrtrow button{
+    position: relative;
+    float: left;
+    left: 7px;
+    height: 40px;
+    width: 61px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+.winkey{
+    background-image: url("/window\ bw.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.thefourthlaterrtrow button.thefourthlaterrtrowctrl{
+    border-radius: 0px 0px 0px 10px;
+    width: 63px;
+}
+.thefourthlaterrtrow button.spce{
+    width: 345px;
+}
+.thefourthlaterrtrow button.arrow1{
+    height: 19px;
+    width: 68px;
+    
+}
+.thefourthlaterrtrow button.ctrl2{
+    width: 67px;
+}
+.thefourthlaterrtrow button.arrow2{
+    margin-right: 50px;
+    height: 19px;
+    top: -1px;
+    right: 22px;
+    width: 68px;
+    
+}
+.thefourthlaterrtrow button.arrow3{
+    bottom: 44px;
+    left: 936px;
+}
+
+.thepowerbutton{
+    position: absolute;
+    bottom: 90%;
+    left: 150px;
+    height: 14px;
+    width: 68px;
+    border-radius: 10px 10px;
+    background-color: rgba(128, 128, 128, 0.548);
+}
+.theinnerpowerbutton{
+    position: absolute;
+    bottom: 91%;
+    left: 155px;
+    height: 8px;
+    width: 20px;
+    border-radius: 10px 10px;
+    background-color: #fff;
+    border-color:black;
+}
+.thepowerbutton2{
+    position: absolute;
+    bottom: 90%;
+    left: 137px;
+    color: #fff;
+}
